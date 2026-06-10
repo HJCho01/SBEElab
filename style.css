@@ -279,26 +279,24 @@ a {
   padding: 28px;
   box-shadow: var(--shadow);
   display: grid;
-  grid-template-columns: 88px minmax(0, 1fr);
+  grid-template-columns: 92px minmax(0, 1fr);
   column-gap: 20px;
   align-items: center;
 }
 
 .research-icon {
   display: inline-flex;
-  width: 88px;
-  height: 88px;
+  width: 92px;
+  height: 92px;
   align-items: center;
   justify-content: center;
-  border: 1.5px solid #9ccc8a;
-  border-radius: 50%;
-  background: var(--white);
+  background: transparent;
 }
 
 .research-icon img {
   display: block;
-  width: 56px;
-  height: 56px;
+  width: 92px;
+  height: 92px;
   object-fit: contain;
 }
 
