@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SBEEE Lab | Hye-Jin Cho</title>
+  <meta name="description" content="SBEEE Lab, Hye-Jin Cho. Building environment, HVAC systems, indoor environmental quality, and building energy efficiency research." />
+  <link rel="icon" href="assets/sbeee-logo-icon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="SBEEE Lab home">
+        <img src="assets/sbeee-logo-horizontal.png" alt="SBEEE Lab" class="brand-logo" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#researcher">Researcher</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="language-toggle" aria-label="Language selection">
+        <button class="lang-btn active" type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button class="lang-btn" type="button" data-lang="ko" aria-pressed="false">KR</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero page-band page-band-green" id="home">
+      <div class="container hero-inner">
+        <h1>Building Environment &amp; Energy Efficiency</h1>
+        <p class="hero-copy">
+          SBEEE Lab presents Hye-Jin Cho's research on sustainable building environmental
+          systems, advanced HVAC equipment, membrane-based humidity control, indoor
+          environmental quality, and data-informed building energy performance. The site
+          introduces core research areas, selected projects, publications, and academic
+          activities in building environment and energy engineering.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#research">Our Research</a>
+          <a class="btn btn-secondary" href="#publications">Publications</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-band page-band-white" id="about">
+      <div class="container narrow">
+        <h2 class="section-title">About the Lab</h2>
+        <div class="about-copy">
+          <p>
+            SBEEE Lab addresses emerging global challenges at the intersection of building
+            energy consumption, humidity control, and indoor environmental quality. The
+            research focuses on technologies and operation strategies that reduce energy
+            demand while maintaining comfortable, healthy, and resilient indoor environments.
+          </p>
+          <p>
+            Major research themes include non-vapor-compression HVAC technologies,
+            high-efficiency membrane-based humidification and dehumidification systems,
+            liquid desiccant and evaporative cooling-assisted air-conditioning, ventilation
+            energy recovery, and climate-adaptive building operation. Through system-level
+            modeling, experiments, and building energy simulation, the lab aims to contribute
+            to sustainable, low-carbon built environments.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-band page-band-soft" id="research">
+      <div class="container">
+        <h2 class="section-title">Research Areas</h2>
+        <div class="research-cards">
+          <article class="research-card">
+            <span class="research-icon"><img src="assets/icon-hvac-membrane.png" alt="" aria-hidden="true" /></span>
+            <h3>HVAC &amp; Membrane Systems</h3>
+            <p>
+              Vapor-selective membranes, vacuum membrane dehumidification, liquid
+              desiccant systems, latent heat exchangers, and advanced air-conditioning.
+            </p>
+          </article>
+          <article class="research-card">
+            <span class="research-icon"><img src="assets/icon-building-energy.png" alt="" aria-hidden="true" /></span>
+            <h3>Building Energy Performance</h3>
+            <p>
+              Building energy simulation, HVAC system modeling, data-driven performance
+              prediction, sensitivity analysis, and optimal operation strategies.
+            </p>
+          </article>
+          <article class="research-card">
+            <span class="research-icon"><img src="assets/icon-building-environment-ieq.png" alt="" aria-hidden="true" /></span>
+            <h3>Building Environment &amp; IEQ</h3>
+            <p>
+              Thermal comfort, indoor air quality, ventilation load, humidity control,
+              and healthy indoor environmental performance in low-energy buildings.
+            </p>
+          </article>
+        </div>
+
+        <div class="show-more">
+          <button class="btn btn-primary" type="button" id="research-toggle" aria-expanded="false" aria-controls="research-detail">
+            Show More Research
+          </button>
+        </div>
+
+        <div class="research-detail" id="research-detail" hidden>
+          <article>
+            <div class="research-detail-image">
+              <img src="assets/research-membrane-dehumidification.png" alt="Membrane-Based Dehumidification Systems" loading="lazy" />
+            </div>
+            <div class="research-detail-body">
+              <h3>Membrane-Based Dehumidification Systems</h3>
+              <p>
+                Membrane-based dehumidification is a core research direction for
+                high-efficiency and refrigerant-free moisture control. The research
+                investigates vapor-selective transport, hollow fiber module design,
+                vacuum membrane dehumidification, and membrane-enhanced DOAS configurations
+                for future HVAC systems.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="research-detail-image">
+              <img src="assets/research-liquid-desiccant.png" alt="Liquid Desiccant Air-Conditioning Systems" loading="lazy" />
+            </div>
+            <div class="research-detail-body">
+              <h3>Liquid Desiccant Air-Conditioning Systems</h3>
+              <p>
+                Liquid desiccant systems provide an alternative pathway for latent load
+                management using hygroscopic solutions. The work analyzes heat and mass
+                transfer, regeneration strategies, heat recovery, and hybrid membrane-LD
+                systems for stable and efficient air-conditioning.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="research-detail-image">
+              <img src="assets/research-latent-heat-exchange.png" alt="Latent Heat Exchange and Ventilation Energy Recovery" loading="lazy" />
+            </div>
+            <div class="research-detail-body">
+              <h3>Latent Heat Exchange and Ventilation Energy Recovery</h3>
+              <p>
+                Research on hollow fiber membrane-based latent heat exchangers evaluates
+                moisture recovery, ventilation load reduction, energy recovery ventilators,
+                and building-scale energy saving potential for zero-energy buildings.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="research-detail-image">
+              <img src="assets/research-ieq.png" alt="Indoor Environmental Quality" loading="lazy" />
+            </div>
+            <div class="research-detail-body">
+              <h3>Indoor Environmental Quality</h3>
+              <p>
+                Indoor environmental quality research connects thermal comfort, humidity,
+                air quality, exposure risk, and hygienic operation of humidification and
+                dehumidification systems in energy-efficient buildings.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-band page-band-white" id="publications">
+      <div class="container">
+        <h2 class="section-title">Publications</h2>
+      </div>
+    </section>
+    <section class="section page-band page-band-soft" id="researcher">
+      <div class="container">
+        <h2 class="section-title">Researcher</h2>
+        <div class="profile-layout">
+          <aside class="profile-card">
+            <img class="profile-photo" src="assets/hyejin-cho-profile.jpg" alt="Hye-Jin Cho" />
+            <h3>Hye-Jin Cho</h3>
+            <p>Postdoctoral Researcher<br />Purdue University &amp; Hanyang University</p>
+            <div class="profile-links">
+              <a class="profile-btn" href="https://scholar.google.co.kr/citations?user=_qptt-EAAAAJ&amp;hl=ko&amp;oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+              <a class="profile-btn" href="mailto:cho.hyejin93@gmail.com">Email</a>
+            </div>
+          </aside>
+
+          <div class="profile-details">
+            <article class="detail-card">
+              <h3>Education &amp; Career Timeline</h3>
+              <ul class="timeline-list">
+                <li><span>2012 - 2017</span><p>B.S. in Architectural Engineering, Hanyang University</p></li>
+                <li><span>2017 - 2019</span><p>M.S. in Architectural Engineering, Hanyang University</p></li>
+                <li><span>2019 - 2023</span><p>Ph.D. in Architectural Engineering, Hanyang University</p></li>
+                <li><span>2023 - Present</span><p>Postdoctoral Researcher, Hanyang University</p></li>
+                <li><span>2025 - 2026</span><p>Visiting Scholar, Purdue University</p></li>
+              </ul>
+            </article>
+
+            <article class="detail-card">
+              <h3>Research Expertise</h3>
+              <ul class="expertise-list">
+                <li>HVAC systems and building energy saving</li>
+                <li>Emerging dehumidification and humidity-control technologies</li>
+                <li>Membrane-based latent heat exchange and ventilation systems</li>
+                <li>Waste energy recovery and low-carbon building operation</li>
+                <li>Building energy simulation, modeling, and performance prediction</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-band page-band-white" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-layout">
+          <div class="contact-panel">
+            <div class="contact-item">
+              <span>Email</span>
+              <a href="mailto:cho.hyejin93@gmail.com">cho.hyejin93@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span>Affiliation</span>
+              <p>Department of Architectural Engineering, Hanyang University, Seoul, South Korea</p>
+            </div>
+            <div class="contact-actions">
+              <button class="contact-btn" type="button" data-copy-email="cho.hyejin93@gmail.com">Copy Email</button>
+              <a class="contact-btn" href="https://scholar.google.co.kr/citations?user=_qptt-EAAAAJ&amp;hl=ko&amp;oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+              <a class="contact-btn" href="assets/CV_Hye-Jin_Cho.docx">Download CV</a>
+            </div>
+            <p class="copy-status" id="copy-status" aria-live="polite"></p>
+          </div>
+          <div class="map-panel">
+            <iframe
+              title="Hanyang University Seoul Campus map"
+              src="https://www.google.com/maps?q=Hanyang%20University%20Seoul%20Campus&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 SBEEE Lab. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">Top</button>
+
+  <script>
+const scholarProfileUrl = "https://scholar.google.co.kr/citations?user=_qptt-EAAAAJ&hl=ko&oi=ao";
+
+const journalPapers = [
+  {
+    year: "2019",
+    citations: 66,
+    title: "Experimental analysis of dehumidification performance of counter and cross-flow liquid desiccant dehumidifiers",
+    authors: "H.J. Cho, S.Y. Cheon, J.W. Jeong",
+    venue: "Applied Thermal Engineering 150, 210-223"
+  },
+  {
+    year: "2021",
+    citations: 57,
+    title: "Energy impact of vacuum-based membrane dehumidification in building air-conditioning applications",
+    authors: "H.J. Cho, S.Y. Cheon, J.W. Jeong",
+    venue: "Applied Thermal Engineering 182, 116094"
+  },
+  {
+    year: "2018",
+    citations: 37,
+    title: "Evaluation of thermal comfort in an office building served by a liquid desiccant-assisted evaporative cooling air-conditioning system",
+    authors: "H.J. Cho, J.W. Jeong",
+    venue: "Energy and Buildings 172, 361-370"
+  },
+  {
+    year: "2019",
+    citations: 36,
+    title: "Energy benefit of a cascade liquid desiccant dehumidification in a desiccant and evaporative cooling-assisted building air-conditioning system",
+    authors: "J.Y. Park, H.W. Dong, H.J. Cho, J.W. Jeong",
+    venue: "Applied Thermal Engineering 147, 291-301"
+  },
+  {
+    year: "2022",
+    citations: 33,
+    title: "Experimental study of vacuum-based membrane dehumidifier for HVAC system: Parametric analysis and dehumidification performance",
+    authors: "S.Y. Cheon, H.J. Cho, J.W. Jeong",
+    venue: "Energy Conversion and Management 270, 116252"
+  },
+  {
+    year: "2021",
+    citations: 30,
+    title: "Energy saving potential of a vacuum-based membrane dehumidifier in a dedicated outdoor air system",
+    authors: "S.Y. Cheon, H.J. Cho, J.W. Jeong",
+    venue: "Energy Conversion and Management 227, 113618"
+  },
+  {
+    year: "2022",
+    citations: 25,
+    title: "Preliminary study on air-to-air latent heat exchanger fabricated using hollow fiber composite membrane for air-conditioning applications",
+    authors: "H.J. Cho, S.Y. Cheon, J.W. Jeong",
+    venue: "Energy Conversion and Management 251, 115000"
+  },
+  {
+    year: "2019",
+    citations: 24,
+    title: "Optimum regeneration temperature of a desiccant solution in a packaged liquid desiccant-assisted air conditioning unit",
+    authors: "H.W. Dong, H.J. Cho, J.Y. Park, J.W. Jeong",
+    venue: "International Journal of Refrigeration 101, 155-166"
+  },
+  {
+    year: "2023",
+    citations: 23,
+    title: "Experimental analysis on energy recovery ventilator with latent heat exchanger using hollow fiber membrane",
+    authors: "H.J. Cho, S.Y. Cheon, J.W. Jeong",
+    venue: "Energy Conversion and Management 278, 116706"
+  },
+  {
+    year: "2023",
+    citations: 22,
+    title: "Energy saving potential of latent heat exchanger-integrated dual core energy recovery ventilator",
+    authors: "H.J. Cho, S.Y. Cheon, J.W. Jeong",
+    venue: "Applied Thermal Engineering 231, 120989"
+  },
+  {
+    year: "2024",
+    citations: 17,
+    title: "Applicability of a dedicated outdoor air system assisted by isothermal dehumidification and evaporative cooling",
+    authors: "S.Y. Cheon, H.J. Cho, J.W. Jeong",
+    venue: "Journal of Building Engineering 82, 108169"
+  },
+  {
+    year: "2022",
+    citations: 14,
+    title: "Simplified effectiveness and number of transfer unit model for a vacuum membrane dehumidifier applied to air conditioning",
+    authors: "S.Y. Cheon, H.J. Cho, J.W. Jeong",
+    venue: "Applied Thermal Engineering 210, 118404"
+  },
+  {
+    year: "2023",
+    citations: 13,
+    title: "Applicability of a liquid-desiccant air-conditioning system in energy-efficient buildings with high latent load",
+    authors: "J.H. Lee, S.Y. Cheon, S.J. Lee, H.J. Cho, J.W. Jeong",
+    venue: "Journal of Building Engineering 78, 107608"
+  },
+  {
+    year: "2023",
+    citations: 12,
+    title: "Humidification performance of hollow-fiber membrane humidifier for air-conditioning applications",
+    authors: "S.Y. Jo, H.J. Cho, J.W. Jeong",
+    venue: "Applied Thermal Engineering 226, 120335"
+  },
+  {
+    year: "2022",
+    citations: 11,
+    title: "Development of empirical models to predict latent heat exchange performance for hollow fiber membrane-based ventilation system",
+    authors: "H.J. Cho, S.Y. Cheon, J.W. Jeong",
+    venue: "Applied Thermal Engineering 213, 118686"
+  },
+  {
+    year: "2024",
+    citations: 10,
+    title: "Energy saving of vacuum-based membrane dehumidification with indirect evaporative cooling in a low sensible-heat-ratio building",
+    authors: "S.H. Park, S.Y. Cheon, H.J. Cho, J.W. Jeong",
+    venue: "Journal of Building Engineering 96, 110490"
+  },
+  {
+    year: "2024",
+    citations: 8,
+    title: "Experimental analysis of vacuum membrane dehumidifier: Hollow fiber module designs and dehumidification performance",
+    authors: "H.J. Cho, S.Y. Cheon, J.W. Jeong, G. Yoon",
+    venue: "Applied Thermal Engineering 236, 121848"
+  },
+  {
+    year: "2023",
+    citations: 7,
+    title: "Energy retrofit of public office building through liquid desiccant assisted dedicated outdoor air system with fuel cell in Korea",
+    authors: "H. Lim, S.Y. Cheon, H.J. Cho, J.W. Jeong, Y. Su",
+    venue: "Applied Thermal Engineering 230, 120870"
+  },
+  {
+    year: "2025",
+    citations: 3,
+    title: "System design and performance assessment of hollow fiber membrane-based humidifier for HVAC applications",
+    authors: "H.J. Cho, S.Y. Cheon, S.H. Park, J.W. Jeong",
+    venue: "Applied Thermal Engineering 265, 125603"
+  },
+  {
+    year: "2025",
+    citations: 2,
+    title: "Performance and sizing of vacuum membrane dehumidification in varied building types and climate zones",
+    authors: "M.A. Raman, A.J. Fix, J. Oh, S.Y. Cheon, H.J. Cho, D.M. Warsinger",
+    venue: "Energy and Buildings, 116904"
+  },
+  {
+    year: "2026",
+    citations: 1,
+    title: "Experimental performance evaluation of isothermal dehumidification and indirect evaporative cooling-assisted dedicated outdoor air system",
+    authors: "H.J. Cho, S.Y. Cheon, K. Jang, B. Kim, J.W. Jeong",
+    venue: "Energy Conversion and Management 348, 120715"
+  },
+  {
+    year: "2026",
+    citations: 0,
+    title: "Cyclic sweep gas membrane humidity pump for high-efficiency dehumidification with imperfect membranes",
+    authors: "S.Y. Cheon, H.J. Cho, M.A. Rahman, A. Fix, D.M. Warsinger",
+    venue: "Energy Conversion and Management 358, 121471"
+  },
+  {
+    year: "2026",
+    citations: 0,
+    title: "Membrane-Based Quasi-Isothermal Humidifier: Performance Characteristics and Energy-Exergy Analysis for HVAC Applications",
+    authors: "S.Y. Cheon, H.J. Cho, J.W. Jeong",
+    venue: "Journal of Building Engineering, 116139"
+  },
+  {
+    year: "2026",
+    citations: 0,
+    title: "Energy saving potential of run-around heat recovery coil-assisted air-conditioning system for retrofitted buildings",
+    authors: "H.J. Cho, S.Y. Cheon, H. Lim",
+    venue: "Applied Thermal Engineering, 129785"
+  }
+];
+
+const conferencePapers = [
+  {
+    year: "2019",
+    citations: 5,
+    title: "A numerical model and validation of phase change material integrated thermoelectric radiant cooling panel",
+    authors: "H. Lim, H.J. Cho, S.Y. Cheon, S.J. Lee, J.W. Jeong",
+    venue: "EDP Sciences"
+  },
+  {
+    year: "2022",
+    citations: 2,
+    title: "Experimental analysis and design of hydraulic thermoelectric radiant cooling panel",
+    authors: "M. Kim, H.J. Cho, S.J. Lee, J.W. Jeong",
+    venue: "Conference paper"
+  },
+  {
+    year: "2021",
+    citations: 1,
+    title: "Experimental Analysis of Energy Recovery Performance of a Hollow Fiber Membrane-Based Ventilation System",
+    authors: "H.J. Cho, B.J. Kim, J.H. Lee",
+    venue: "ASHRAE Transactions 127, 448-456"
+  },
+  {
+    year: "2019",
+    citations: 1,
+    title: "Dehumidification Performance Improvement of a Cross flow type Liquid Desiccant Dehumidifier by Dehumidifier Dimensions Modification",
+    authors: "H.J. Cho, B.J. Kim, S.J. Lee, J.W. Jeong",
+    venue: "Building Simulation 2019 16, 1979-1985"
+  },
+  {
+    year: "2019",
+    citations: 1,
+    title: "Energy Saving Potential of the Organic Rankine Cycle in a Desiccant-assisted Ventilation System for a Residential Building",
+    authors: "H.W. Dong, H. Lim, H.J. Cho, Y.S. Byon, J.W. Jeong",
+    venue: "Building Simulation Conference Proceedings, 16th IBPSA"
+  },
+  {
+    year: "2011",
+    citations: 1,
+    title: "Underfloor air distribution integrated with an indirect and direct evaporative cooling assisted 100% outdoor air system",
+    authors: "Y.J. Seok, H.J. Cho, S.K. Han, J.W. Jeong",
+    venue: "Conference paper"
+  },
+  {
+    year: "2026",
+    citations: 0,
+    title: "Dynamic Dehumidification Performance and Modeling of a Heat Pump-Assisted Membrane-Based High-Temperature Industrial Dryer",
+    authors: "M.A. Rahman, M.A. Thompson, J. Ren, S.Y. Cheon, H.J. Cho, D. Ziviani, D.M. Warsinger",
+    venue: "ASHRAE Transactions 132, 302-312"
+  },
+  {
+    year: "2025",
+    citations: 0,
+    title: "The Feasibility Study on the Hollow Fiber Membrane Dehumidification System Coupling with Conventional Air Conditioning System",
+    authors: "K. Tsuji, G. Yoon, H.J. Cho, S.Y. Cheon, J.W. Jeong",
+    venue: "REHVA HVAC World Congress, 792-800"
+  },
+  {
+    year: "2025",
+    citations: 0,
+    title: "Experimental Investigation of Vacuum-Based Membrane Dehumidification and Evaporative Cooling-Assisted Dedicated Outdoor Air System",
+    authors: "H.J. Cho, S.Y. Cheon, J.W. Jeong",
+    venue: "ASHRAE Transactions 131, 411-418"
+  },
+  {
+    year: "2024",
+    citations: 0,
+    title: "Preliminary Test on Moisture Transfer of Flat Sheet Membrane-based Dehumidification System",
+    authors: "H.J. Cho, S.Y. Cheon, S.J. Lee, J.W. Jeong",
+    venue: "Conference paper"
+  },
+  {
+    year: "2024",
+    citations: 0,
+    title: "Thermodynamic Analysis of Cascade Vacuum Pump Based Membrane Dehumidifier in Air Conditioning System",
+    authors: "S.Y. Cheon, H.J. Cho, J.H. Lee, S.H. Park, J.W. Jeong",
+    venue: "Conference paper"
+  },
+  {
+    year: "2023",
+    citations: 0,
+    title: "Performance evaluation of multi-functional cascade heat pump system for a residential building",
+    authors: "B.J. Kim, H.J. Cho, S.J. Lee, T.D. Kwon, J.W. Jeong",
+    venue: "IEA"
+  },
+  {
+    year: "2023",
+    citations: 0,
+    title: "Empirical Analysis of Cascade Heat Pump System for Heating with Different Types of Refrigerant Flows Based on Field Test",
+    authors: "B.J. Kim, H.L. Park",
+    venue: "ASHRAE Transactions 129, 307-314"
+  },
+  {
+    year: "2023",
+    citations: 0,
+    title: "Fundamental Study on System Efficiency of Vacuum-based Membrane Dehumidification System",
+    authors: "S. Kida, G. Yoon, S. Suzuki, S.Y. Cheon, H.J. Cho, J.W. Jeong",
+    venue: "E3S Web of Conferences 396, 03021"
+  },
+  {
+    year: "2022",
+    citations: 0,
+    title: "Experimental investigation on a packaged unit of membrane dehumidification-based ventilation system",
+    authors: "C. Hye-Jin, J. Su-Young, L. Soo-Jin, L. Gyu-Bae, J. Jae-Weon",
+    venue: "CLIMA 2022 conference"
+  },
+  {
+    year: "2022",
+    citations: 0,
+    title: "Design and experiment study of membrane based isothermal dehumidifier in HVAC system",
+    authors: "C. Hye-Jin, J. Su-Young, L. Jae-hee, K. Minseong, J. Jae-Woen",
+    venue: "CLIMA 2022 conference"
+  },
+  {
+    year: "2022",
+    citations: 0,
+    title: "Experimental study on a liquid desiccant dehumidifier with a solution atomization",
+    authors: "S.J. Lee, H.J. Cho, J.H. Lee, Y.K. Kang, G.B. Lee, J.W. Jeong",
+    venue: "CLIMA 2022 conference"
+  },
+  {
+    year: "2022",
+    citations: 0,
+    title: "Design and experiment study of membrane based isothermal dehumidifier in HVAC system",
+    authors: "S. Cheon, H.J. Cho, S.Y. Jo, J. Lee, M. Kim, J.W. Jeong",
+    venue: "CLIMA 2022 Proceedings, 1-6"
+  },
+  {
+    year: "2022",
+    citations: 0,
+    title: "メンブレンを用いた従来空調システムの潜熱処理能力増強に関する研究",
+    authors: "尹奎英, 鈴木笙悟, 千成勇, 趙慧珍, 鄭在原",
+    venue: "空気調和・衛生工学会 中部支部学術研究発表会論文集 23, 109-112"
+  },
+  {
+    year: "2022",
+    citations: 0,
+    title: "Applicable design of multi-functional cascade heat pump system for an office building",
+    authors: "B.J. Kim, H.J. Cho, S.J. Lee, T.D. Kwon, J.W. Jeong",
+    venue: "E3S Web of Conferences 356, 1-4"
+  },
+  {
+    year: "2021",
+    citations: 0,
+    title: "Theoretical Analysis for Mass Transfer in a Vacuum Membrane Dehumidification System",
+    authors: "H.J. Cho, S.Y. Cheon, S. Liu, J.W. Jeong",
+    venue: "The 13th IEA Heat Pump Conference in Jeju, 496-505"
+  },
+  {
+    year: "2021",
+    citations: 0,
+    title: "Empirical Analysis of Dehumidification Performance of Hollow-Fiber-Membrane Dehumidifier",
+    authors: "S.Y. Cheon, H.J. Cho, J. Ko, J.W. Jeong",
+    venue: "Conference paper"
+  },
+  {
+    year: "2021",
+    citations: 0,
+    title: "Experimental analysis of a hydrophilic hollow fiber membrane-based dehumidification system",
+    authors: "H.J. Cho, B.J. Kim, Y.K. Kang, Y.J. Hwang, J.W. Jeong",
+    venue: "ROOMVENT2020 Virtual Conference"
+  },
+  {
+    year: "2021",
+    citations: 0,
+    title: "Energy Analysis of Water-Sprayed Condenser-Assisted HVAC System",
+    authors: "B.J. Kim, H.J. Cho, L. Lin",
+    venue: "ASHRAE Transactions 127, 534-541"
+  },
+  {
+    year: "2018",
+    citations: 0,
+    title: "Energy Saving Potential Of Organic Rankine Cycle In A Desiccant-Enhanced Evaporative Cooling System",
+    authors: "H.W. Dong, J.Y. Park, H.J. Cho, S.J. Lee, J.W. Jeong",
+    venue: "ASIM 2018 Conference Proceeding, 1-8"
+  },
+  {
+    year: "2018",
+    citations: 0,
+    title: "Energy Saving Potential of Solar Organic Rankine Cycle in a Liquid Desiccant and Evaporative Cooling-assisted Air Conditioning System",
+    authors: "H.W. Dong, H.J. Cho, E.J. Choi, B.J. Kim, J.W. Jeong",
+    venue: "Proceedings of the 4th International Conference on Building Energy"
+  },
+  {
+    year: "2018",
+    citations: 0,
+    title: "Energy Performance Of Thermoelectric Ceiling Radiant Panels With A Dedicated Outdoor Air System In High-Speed Train Cabins",
+    authors: "H. Lim, H.J. Cho, S.Y. Cheon, S.J. Lee, J.W. Jeong",
+    venue: "ASIM 2018 Conference Proceeding, 1-8"
+  },
+  {
+    year: "2018",
+    citations: 0,
+    title: "Empirical Analysis of the Dehumidification Performance of a Packed-Bed Counter-Flow Liquid Desiccant Dehumidifier",
+    authors: "H.J. Cho, J.W. Jeong",
+    venue: "Proceedings of Roomvent and Ventilation 2018 Track 3, 481-486"
+  },
+  {
+    year: "2017",
+    citations: 0,
+    title: "Energy performance prediction of thermoelectric ceiling radiant panels with a dedicated outdoor air system",
+    authors: "H. Lim, J. Shin, S. Li, H.J. Cho, J.W. Jeong",
+    venue: "Conference paper"
+  }
+];
+
+function scholarSearchUrl(title) {
+  return `https://scholar.google.com/scholar?q=${encodeURIComponent(title)}`;
+}
+
+function readStoredLanguage() {
+  try {
+    return window.localStorage?.getItem("sbeee-lang");
+  } catch {
+    return null;
+  }
+}
+
+function storeLanguage(lang) {
+  try {
+    window.localStorage?.setItem("sbeee-lang", lang);
+  } catch {
+    // Local file previews may block localStorage; language switching still works.
+  }
+}
+
+let currentLang = readStoredLanguage() === "ko" ? "ko" : "en";
+
+const UI = {
+  en: {
+    nav: ["Home", "About", "Research", "Publications", "Researcher", "Contact"],
+    heroTitle: "Building Environment & Energy Efficiency",
+    heroCopy: "SBEEE Lab presents Hye-Jin Cho's research on sustainable building environmental systems, advanced HVAC equipment, membrane-based humidity control, indoor environmental quality, and data-informed building energy performance. The site introduces core research areas, selected projects, publications, and academic activities in building environment and energy engineering.",
+    ourResearch: "Our Research",
+    publications: "Publications",
+    aboutTitle: "About the Lab",
+    about1: "SBEEE Lab addresses emerging global challenges at the intersection of building energy consumption, humidity control, and indoor environmental quality. The research focuses on technologies and operation strategies that reduce energy demand while maintaining comfortable, healthy, and resilient indoor environments.",
+    about2: "Major research themes include non-vapor-compression HVAC technologies, high-efficiency membrane-based humidification and dehumidification systems, liquid desiccant and evaporative cooling-assisted air-conditioning, ventilation energy recovery, and climate-adaptive building operation. Through system-level modeling, experiments, and building energy simulation, the lab aims to contribute to sustainable, low-carbon built environments.",
+    researchTitle: "Research Areas",
+    researchCards: [
+      ["HVAC & Membrane Systems", "Vapor-selective membranes, vacuum membrane dehumidification, liquid desiccant systems, latent heat exchangers, and advanced air-conditioning."],
+      ["Building Energy Performance", "Building energy simulation, HVAC system modeling, data-driven performance prediction, sensitivity analysis, and optimal operation strategies."],
+      ["Building Environment & IEQ", "Thermal comfort, indoor air quality, ventilation load, humidity control, and healthy indoor environmental performance in low-energy buildings."]
+    ],
+    researchDetails: [
+      ["Membrane-Based Dehumidification Systems", "Membrane-based dehumidification is a core research direction for high-efficiency and refrigerant-free moisture control. The research investigates vapor-selective transport, hollow fiber module design, vacuum membrane dehumidification, and membrane-enhanced DOAS configurations for future HVAC systems."],
+      ["Liquid Desiccant Air-Conditioning Systems", "Liquid desiccant systems provide an alternative pathway for latent load management using hygroscopic solutions. The work analyzes heat and mass transfer, regeneration strategies, heat recovery, and hybrid membrane-LD systems for stable and efficient air-conditioning."],
+      ["Latent Heat Exchange and Ventilation Energy Recovery", "Research on hollow fiber membrane-based latent heat exchangers evaluates moisture recovery, ventilation load reduction, energy recovery ventilators, and building-scale energy saving potential for zero-energy buildings."],
+      ["Indoor Environmental Quality", "Indoor environmental quality research connects thermal comfort, humidity, air quality, exposure risk, and hygienic operation of humidification and dehumidification systems in energy-efficient buildings."]
+    ],
+    showResearch: "Show More Research",
+    hideResearch: "Show Less Research",
+    publicationTitle: "Publications",
+    journalTitle: "Journal Papers",
+    showJournal: "Show More Journal Papers",
+    hideJournal: "Show Less Journal Papers",
+    conferenceTitle: "Conference Proceedings",
+    showConference: "Show More Conference Proceedings",
+    hideConference: "Show Less Conference Proceedings",
+    conferenceNoticeTitle: "Conference proceedings are being updated.",
+    conferenceNoticeBody: "This section is reserved for verified conference papers and proceedings. Detailed entries can be added here after the final list is confirmed.",
+    placeholders: ["Title", "Authors", "Venue / Year"],
+    researcherTitle: "Researcher",
+    role: "Postdoctoral Researcher<br />Purdue University &amp; Hanyang University",
+    timelineTitle: "Education & Career Timeline",
+    expertiseTitle: "Research Expertise",
+    timeline: [
+      "B.S. in Architectural Engineering, Hanyang University",
+      "M.S. in Architectural Engineering, Hanyang University",
+      "Ph.D. in Architectural Engineering, Hanyang University",
+      "Postdoctoral Researcher, Hanyang University",
+      "Visiting Scholar, Purdue University"
+    ],
+    expertise: [
+      "HVAC systems and building energy saving",
+      "Emerging dehumidification and humidity-control technologies",
+      "Membrane-based latent heat exchange and ventilation systems",
+      "Waste energy recovery and low-carbon building operation",
+      "Building energy simulation, modeling, and performance prediction"
+    ],
+    contactTitle: "Contact",
+    email: "Email",
+    affiliation: "Affiliation",
+    affiliationText: "Department of Architectural Engineering, Hanyang University, Seoul, South Korea",
+    copyEmail: "Copy Email",
+    googleScholar: "Google Scholar",
+    downloadCV: "Download CV",
+    copied: "Email copied.",
+    backTop: "Top",
+    footer: "© 2026 SBEEE Lab. All rights reserved."
+  },
+  ko: {
+    nav: ["홈", "소개", "연구", "논문", "연구자", "연락처"],
+    heroTitle: "건축환경 및 에너지 효율",
+    heroCopy: "SBEEE Lab은 조혜진 연구자의 지속가능한 건축환경 시스템, 고효율 HVAC 설비, 멤브레인 기반 습도 제어, 실내환경 품질, 데이터 기반 건물 에너지 성능 연구를 소개합니다. 본 홈페이지는 주요 연구 분야, 대표 연구 주제, 학술논문, 연구자 이력을 한눈에 볼 수 있도록 구성되어 있습니다.",
+    ourResearch: "연구 분야",
+    publications: "논문 보기",
+    aboutTitle: "연구실 소개",
+    about1: "SBEEE Lab은 건물 에너지 소비, 습도 제어, 실내환경 품질이 만나는 지점에서 발생하는 새로운 문제를 다룹니다. 쾌적하고 건강한 실내환경을 유지하면서도 에너지 수요를 줄일 수 있는 건축환경 설비기술과 운전 전략을 연구합니다.",
+    about2: "주요 연구 주제는 비증기압축식 HVAC 기술, 고효율 멤브레인 기반 가습·제습 시스템, 액체식 제습 및 증발냉각 보조 공조 시스템, 환기 에너지 회수, 기후 적응형 건물 운전입니다. 시스템 모델링, 실험, 건물 에너지 시뮬레이션을 결합하여 지속가능한 저탄소 건축환경 구현에 기여하는 것을 목표로 합니다.",
+    researchTitle: "연구 분야",
+    researchCards: [
+      ["HVAC 및 멤브레인 시스템", "수분 선택 투과막, 진공 멤브레인 제습, 액체식 제습, 잠열교환기, 차세대 공조설비를 연구합니다."],
+      ["건물 에너지 성능", "건물 에너지 시뮬레이션, HVAC 시스템 모델링, 데이터 기반 성능 예측, 민감도 분석, 최적 운전 전략을 다룹니다."],
+      ["건축환경 및 실내환경품질", "열쾌적, 실내공기질, 환기부하, 습도 제어, 저에너지 건축물의 건강한 실내환경 성능을 연구합니다."]
+    ],
+    researchDetails: [
+      ["멤브레인 기반 제습 시스템", "멤브레인 기반 제습은 고효율·비냉매 습도 제어를 위한 핵심 연구 방향입니다. 수분 선택 투과, 중공사막 모듈 설계, 진공 멤브레인 제습, 멤브레인 결합 DOAS 구성을 중심으로 차세대 HVAC 적용성을 검토합니다."],
+      ["액체식 제습 공조 시스템", "액체식 제습 시스템은 흡습성 용액을 이용해 잠열부하를 처리하는 대안적 공조 기술입니다. 열 및 물질전달, 재생 전략, 열회수, 멤브레인-LD 하이브리드 시스템을 분석합니다."],
+      ["잠열교환 및 환기 에너지 회수", "중공사막 기반 잠열교환기의 수분 회수, 환기부하 저감, 전열교환 환기장치, 건물 규모 에너지 절감 가능성을 평가합니다."],
+      ["실내환경 품질", "열쾌적, 습도, 공기질, 노출 위험, 가습·제습 시스템의 위생적 운전을 건물 에너지 효율과 함께 분석합니다."]
+    ],
+    showResearch: "연구 자세히 보기",
+    hideResearch: "연구 접기",
+    publicationTitle: "논문",
+    journalTitle: "저널 논문",
+    showJournal: "저널 논문 더 보기",
+    hideJournal: "저널 논문 접기",
+    conferenceTitle: "학술대회 발표",
+    showConference: "학술대회 발표 더 보기",
+    hideConference: "학술대회 발표 접기",
+    conferenceNoticeTitle: "학술대회 발표 목록은 업데이트 중입니다.",
+    conferenceNoticeBody: "검증된 Conference Proceedings 목록을 추후 입력할 수 있도록 비워둔 영역입니다. 최종 목록이 확정되면 제목, 저자, 학회/연도 정보를 추가하면 됩니다.",
+    placeholders: ["제목", "저자", "학회 / 연도"],
+    researcherTitle: "연구자",
+    role: "박사후연구원<br />Purdue University &amp; Hanyang University",
+    timelineTitle: "학력 및 경력",
+    expertiseTitle: "주요 연구 분야",
+    timeline: [
+      "한양대학교 건축공학부 공학사",
+      "한양대학교 건축공학과 공학석사",
+      "한양대학교 건축공학과 공학박사",
+      "한양대학교 건축공학과 박사후연구원",
+      "Purdue University 방문연구원"
+    ],
+    expertise: [
+      "HVAC 시스템 및 건물 에너지 절감",
+      "차세대 제습 및 습도 제어 기술",
+      "멤브레인 기반 잠열교환 및 환기 시스템",
+      "미활용 에너지 회수 및 저탄소 건물 운전",
+      "건물 에너지 시뮬레이션, 모델링, 성능 예측"
+    ],
+    contactTitle: "연락처",
+    email: "이메일",
+    affiliation: "소속",
+    affiliationText: "한양대학교 건축공학과, 서울, 대한민국",
+    copyEmail: "이메일 복사",
+    googleScholar: "Google Scholar",
+    downloadCV: "CV 다운로드",
+    copied: "이메일이 복사되었습니다.",
+    backTop: "맨 위",
+    footer: "© 2026 SBEEE Lab. All rights reserved."
+  }
+};
+
+function ui() {
+  return UI[currentLang];
+}
+
+function yearValue(year) {
+  const match = String(year).match(/\d{4}/);
+  return match ? Number(match[0]) : -Infinity;
+}
+
+function sortedByYearDesc(papers) {
+  return [...papers]
+    .filter((paper) => yearValue(paper.year) > 0)
+    .sort((a, b) => yearValue(b.year) - yearValue(a.year));
+}
+
+function paperItem(paper, index, visibleCount, extraClass) {
+  const hidden = index >= visibleCount ? ` class="${extraClass}" hidden` : "";
+  return `
+    <li${hidden}>
+      <span class="pub-year">${paper.year}</span>
+      <div>
+        <a class="pub-title" href="${scholarSearchUrl(paper.title)}" target="_blank" rel="noopener">${paper.title}</a>
+        <p class="pub-meta">${paper.authors}. <em>${paper.venue}</em></p>
+      </div>
+    </li>`;
+}
+
+function renderPublications() {
+  const section = document.getElementById("publications");
+  if (!section) return;
+  const journals = sortedByYearDesc(journalPapers);
+  const conferences = sortedByYearDesc(conferencePapers);
+
+  section.innerHTML = `
+    <div class="container">
+      <div class="section-heading-row">
+        <div>
+          <h2 class="section-title">${ui().publicationTitle}</h2>
+        </div>
+      </div>
+
+      <div class="pub-category">
+        <h3>${ui().journalTitle}</h3>
+        <ol class="publication-list">
+          ${journals.map((paper, index) => paperItem(paper, index, 5, "pub-extra")).join("")}
+        </ol>
+        <div class="show-more">
+          <button class="btn btn-secondary" type="button" data-toggle-publications="journal" aria-expanded="false">${ui().showJournal}</button>
+        </div>
+      </div>
+
+      <div class="pub-category">
+        <h3>${ui().conferenceTitle}</h3>
+        <ol class="publication-list compact">
+          ${conferences.map((paper, index) => paperItem(paper, index, 5, "conf-extra")).join("")}
+        </ol>
+        <div class="show-more">
+          <button class="btn btn-secondary" type="button" data-toggle-publications="conference" aria-expanded="false">${ui().showConference}</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+function bindPublicationToggles() {
+  document.querySelectorAll("[data-toggle-publications]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const type = button.getAttribute("data-toggle-publications");
+      const selector = type === "conference" ? ".conf-extra" : ".pub-extra";
+      const isExpanded = button.getAttribute("aria-expanded") === "true";
+
+      document.querySelectorAll(selector).forEach((item) => {
+        item.hidden = isExpanded;
+      });
+
+      button.setAttribute("aria-expanded", String(!isExpanded));
+      if (type === "conference") {
+        button.textContent = isExpanded ? ui().showConference : ui().hideConference;
+      } else {
+        button.textContent = isExpanded ? ui().showJournal : ui().hideJournal;
+      }
+    });
+  });
+}
+
+function setText(selector, value, root = document) {
+  const element = root.querySelector(selector);
+  if (element) element.textContent = value;
+}
+
+function setHtml(selector, value, root = document) {
+  const element = root.querySelector(selector);
+  if (element) element.innerHTML = value;
+}
+
+let activeScrollAnimation = null;
+
+function getScrollTargetTop(target) {
+  const header = document.querySelector(".site-header");
+  const headerOffset = header ? header.offsetHeight : 0;
+  return Math.max(0, target.getBoundingClientRect().top + window.scrollY - headerOffset + 2);
+}
+
+function slowScrollTo(top) {
+  const start = window.scrollY;
+  const distance = top - start;
+
+  if (activeScrollAnimation) {
+    cancelAnimationFrame(activeScrollAnimation);
+  }
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    window.scrollTo(0, top);
+    return;
+  }
+
+  const duration = Math.min(1800, Math.max(900, Math.abs(distance) * 0.75));
+  const startTime = performance.now();
+  const easeInOutCubic = (progress) =>
+    progress < 0.5
+      ? 4 * progress * progress * progress
+      : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+
+  function animateScroll(currentTime) {
+    const elapsed = currentTime - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    window.scrollTo(0, start + distance * easeInOutCubic(progress));
+
+    if (progress < 1) {
+      activeScrollAnimation = requestAnimationFrame(animateScroll);
+    } else {
+      activeScrollAnimation = null;
+    }
+  }
+
+  activeScrollAnimation = requestAnimationFrame(animateScroll);
+}
+
+function applyLanguage() {
+  document.documentElement.lang = currentLang;
+
+  document.querySelectorAll(".nav-links a").forEach((link, index) => {
+    if (ui().nav[index]) link.textContent = ui().nav[index];
+  });
+
+  setText(".hero h1", ui().heroTitle);
+  setText(".hero-copy", ui().heroCopy);
+  setText(".hero-actions .btn-primary", ui().ourResearch);
+  setText(".hero-actions .btn-secondary", ui().publications);
+  setText("#about .section-title", ui().aboutTitle);
+  setText("#about .about-copy p:nth-child(1)", ui().about1);
+  setText("#about .about-copy p:nth-child(2)", ui().about2);
+  setText("#research .section-title", ui().researchTitle);
+
+  document.querySelectorAll(".research-card").forEach((card, index) => {
+    const content = ui().researchCards[index];
+    if (!content) return;
+    setText("h3", content[0], card);
+    setText("p", content[1], card);
+  });
+
+  document.querySelectorAll(".research-detail article").forEach((item, index) => {
+    const content = ui().researchDetails[index];
+    if (!content) return;
+    setText("h3", content[0], item);
+    setText("p", content[1], item);
+  });
+
+  if (researchToggle) {
+    const isExpanded = researchToggle.getAttribute("aria-expanded") === "true";
+    researchToggle.textContent = isExpanded ? ui().hideResearch : ui().showResearch;
+  }
+
+  setText("#researcher .section-title", ui().researcherTitle);
+  setHtml(".profile-card p", ui().role);
+  setText(".profile-links .profile-btn:nth-child(1)", ui().googleScholar);
+  setText(".profile-links .profile-btn:nth-child(2)", ui().email);
+  setText(".detail-card:nth-child(1) h3", ui().timelineTitle);
+  setText(".detail-card:nth-child(2) h3", ui().expertiseTitle);
+
+  document.querySelectorAll(".timeline-list li p").forEach((item, index) => {
+    if (ui().timeline[index]) item.textContent = ui().timeline[index];
+  });
+  document.querySelectorAll(".expertise-list li").forEach((item, index) => {
+    if (ui().expertise[index]) item.textContent = ui().expertise[index];
+  });
+
+  setText("#contact .section-title", ui().contactTitle);
+  setText(".contact-item:nth-child(1) span", ui().email);
+  setText(".contact-item:nth-child(2) span", ui().affiliation);
+  setText(".contact-item:nth-child(2) p", ui().affiliationText);
+  setText("[data-copy-email]", ui().copyEmail);
+  setText(".contact-actions .contact-btn:nth-child(2)", ui().googleScholar);
+  setText(".contact-actions .contact-btn:nth-child(3)", ui().downloadCV);
+  setText(".site-footer p", ui().footer);
+
+  const backToTop = document.getElementById("back-to-top");
+  if (backToTop) {
+    backToTop.textContent = ui().backTop;
+  }
+
+  document.querySelectorAll(".lang-btn").forEach((button) => {
+    const active = button.getAttribute("data-lang") === currentLang;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
+}
+
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+const researchToggle = document.getElementById("research-toggle");
+const researchDetail = document.getElementById("research-detail");
+const copyButton = document.querySelector("[data-copy-email]");
+const copyStatus = document.getElementById("copy-status");
+const languageButtons = document.querySelectorAll(".lang-btn");
+const backToTopButton = document.getElementById("back-to-top");
+
+renderPublications();
+bindPublicationToggles();
+applyLanguage();
+
+if (navToggle && navLinks) {
+  navToggle.addEventListener("click", () => {
+    const isOpen = navLinks.classList.toggle("is-open");
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  navLinks.addEventListener("click", (event) => {
+    if (event.target.closest("a")) {
+      navLinks.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    }
+  });
+}
+
+if (researchToggle && researchDetail) {
+  researchToggle.addEventListener("click", () => {
+    const isExpanded = researchToggle.getAttribute("aria-expanded") === "true";
+    researchToggle.setAttribute("aria-expanded", String(!isExpanded));
+    researchDetail.hidden = isExpanded;
+    researchToggle.textContent = isExpanded ? ui().showResearch : ui().hideResearch;
+  });
+}
+
+languageButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const nextLang = button.getAttribute("data-lang");
+    if (!nextLang || nextLang === currentLang) return;
+    currentLang = nextLang;
+    storeLanguage(currentLang);
+    renderPublications();
+    bindPublicationToggles();
+    applyLanguage();
+  });
+});
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", (event) => {
+    const targetId = anchor.getAttribute("href");
+    if (!targetId || targetId === "#") return;
+    const target = document.querySelector(targetId);
+    if (!target) return;
+    event.preventDefault();
+    slowScrollTo(getScrollTargetTop(target));
+    history.replaceState(null, "", targetId);
+  });
+});
+
+if (backToTopButton) {
+  window.addEventListener("scroll", () => {
+    backToTopButton.classList.toggle("is-visible", window.scrollY > 520);
+  });
+
+  backToTopButton.addEventListener("click", () => {
+    slowScrollTo(0);
+    history.replaceState(null, "", "#home");
+  });
+}
+
+if (copyButton && copyStatus) {
+  copyButton.addEventListener("click", async () => {
+    const email = copyButton.getAttribute("data-copy-email");
+    try {
+      await navigator.clipboard.writeText(email);
+      copyStatus.textContent = ui().copied;
+    } catch {
+      copyStatus.textContent = email;
+    }
+  });
+}
+
+</script>
+</body>
+</html>
