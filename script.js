@@ -457,6 +457,7 @@ const UI = {
     affiliationText: "Department of Architectural Engineering, Hanyang University, Seoul, South Korea",
     copyEmail: "Copy Email",
     googleScholar: "Google Scholar",
+    orcid: "ORCID",
     downloadCV: "Download CV",
     copied: "Email copied.",
     backTop: "Top",
@@ -519,6 +520,7 @@ const UI = {
     affiliationText: "한양대학교 건축공학과, 서울, 대한민국",
     copyEmail: "이메일 복사",
     googleScholar: "Google Scholar",
+    orcid: "ORCID",
     downloadCV: "CV 다운로드",
     copied: "이메일이 복사되었습니다.",
     backTop: "맨 위",
@@ -696,7 +698,7 @@ function applyLanguage() {
   setText("#researcher .section-title", ui().researcherTitle);
   setHtml(".profile-card p", ui().role);
   setText(".profile-links .profile-btn:nth-child(1)", ui().googleScholar);
-  setText(".profile-links .profile-btn:nth-child(2)", ui().email);
+  setText(".profile-links .profile-btn:nth-child(2)", ui().orcid);
   setText(".detail-card:nth-child(1) h3", ui().timelineTitle);
   setText(".detail-card:nth-child(2) h3", ui().expertiseTitle);
 
